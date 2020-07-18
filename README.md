@@ -1,4 +1,5 @@
 # H-Tools
+Welcome to H-Tools, an Web App used to group NuxtApps
 
 ## Build Setup
 
@@ -16,5 +17,3 @@ $ yarn start
 # generate static project
 $ yarn generate
 ```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
