@@ -57,11 +57,19 @@
         <v-icon>mdi-menu</v-icon>
       </v-btn>
     </v-app-bar>
+<<<<<<< HEAD
     <v-content>
       <v-container>
         <nuxt />
       </v-container>
     </v-content>
+=======
+    <v-main>
+      <v-container>
+        <nuxt />
+      </v-container>
+    </v-main>
+>>>>>>> bcc2c91c7e065b5fe2dd9a1ba2f39fbba5a8b8b9
     <v-navigation-drawer
       v-model="rightDrawer"
       :right="right"
@@ -83,7 +91,11 @@
       :absolute="!fixed"
       app
     >
+<<<<<<< HEAD
       <span>&copy; Thomas CLEMENT {{ new Date().getFullYear() }}</span>
+=======
+      <span>&copy; {{ new Date().getFullYear() }}</span>
+>>>>>>> bcc2c91c7e065b5fe2dd9a1ba2f39fbba5a8b8b9
     </v-footer>
   </v-app>
 </template>
@@ -103,8 +115,13 @@ export default {
         },
         {
           icon: 'mdi-chart-bubble',
+<<<<<<< HEAD
           title: 'Download',
           to: '/download'
+=======
+          title: 'Zip and UnZip',
+          to: '/zip'
+>>>>>>> bcc2c91c7e065b5fe2dd9a1ba2f39fbba5a8b8b9
         }
       ],
       miniVariant: false,
