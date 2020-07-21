@@ -1,5 +1,5 @@
 # H-Tools
-Welcome to H-Tools, an Web App used to group NuxtApps
+Welcome to H-Tools, an Web App used to group my Nuxt Tools
 
 ## Build Setup
 
