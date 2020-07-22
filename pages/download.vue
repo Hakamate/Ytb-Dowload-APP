@@ -22,13 +22,17 @@ export default {
     const convertBtn = document.getElementById("convert-button");
 
     convertBtn.addEventListener("click", () => {
-      console.log(`URL: ${urlInput.value}`);
       this.sendURL(urlInput.value);
     });
+
+    axios.get(`http://127.0.0.1:3333/api/tests`)
+        .catch(error => {
+          console.log(error);
+        })
+        .then(response => console.log(response))
   },
   methods:{
     sendURL: async function(url){
-      console.log(url)
       await axios.post(`http://127.0.0.1:3333/api/download`, {params:{URL:url}})
         .catch(error => {
           console.log(error);
