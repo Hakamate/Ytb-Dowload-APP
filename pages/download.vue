@@ -32,9 +32,14 @@ export default {
     const convertBtn = document.getElementById("convert-button");
 
     convertBtn.addEventListener("click", () => {
-      console.log(`URL: ${urlInput.value}`);
       this.sendURL(urlInput.value);
     });
+
+    axios.get(`http://127.0.0.1:3333/api/tests`)
+        .catch(error => {
+          console.log(error);
+        })
+        .then(response => console.log(response))
   },
   methods: {
     sendURL: function(url) {
