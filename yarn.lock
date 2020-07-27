@@ -1236,6 +1236,13 @@
     "@types/browserslist" "*"
     postcss "7.x.x"
 
+"@types/axios@^0.14.0":
+  version "0.14.0"
+  resolved "https://registry.yarnpkg.com/@types/axios/-/axios-0.14.0.tgz#ec2300fbe7d7dddd7eb9d3abf87999964cafce46"
+  integrity sha1-7CMA++fX3d1+udOr+HmZlkyvzkY=
+  dependencies:
+    axios "*"
+
 "@types/babel__core@^7.1.8":
   version "7.1.9"
   resolved "https://registry.yarnpkg.com/@types/babel__core/-/babel__core-7.1.9.tgz#77e59d438522a6fb898fa43dc3455c6e72f3963d"
@@ -2014,7 +2021,15 @@ axios-retry@^3.1.8:
   dependencies:
     is-retry-allowed "^1.1.0"
 
-axios@^0.19.2:
+axios-stream@^1.0.16:
+  version "1.0.16"
+  resolved "https://registry.yarnpkg.com/axios-stream/-/axios-stream-1.0.16.tgz#8c5196987445cb6f2d5e7da12e0fa447faf2cccc"
+  integrity sha512-np7/leYHK85YFR6v0mL3b7xNwUgwISFvXiCoqlomvYIS2sXozVkMP4dcoX7BhHz2bH94YiRpv7lYduJAuuNJ+g==
+  dependencies:
+    "@types/axios" "^0.14.0"
+    axios "^0.19.2"
+
+axios@*, axios@^0.19.2:
   version "0.19.2"
   resolved "https://registry.yarnpkg.com/axios/-/axios-0.19.2.tgz#3ea36c5d8818d0d5f8a8a97a6d36b86cdc00cb27"
   integrity sha512-fjgm5MvRHLhx+osE2xoekY70AhARk3a6hkN+3Io1jc00jtquGvxYlKlsFUhmUET0V5te6CcZI7lcv2Ym61mjHA==
@@ -3645,6 +3660,11 @@ fastq@^1.6.0:
   integrity sha512-SMIZoZdLh/fgofivvIkmknUXyPnvxRE3DhtZ5Me3Mrsk5gyPL42F0xr51TdRXskBxHfMp+07bcYzfsYEsSQA9Q==
   dependencies:
     reusify "^1.0.4"
+
+fetch-progress@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/fetch-progress/-/fetch-progress-1.2.0.tgz#23f8d931a889e4b637e97879b97ec4e633fdfbff"
+  integrity sha512-i3eO9oA0cMWG0ePh3u5i58t43/nKUBU7MEcMeTqRwu4tUj4Wl6SK8GP0X/Q7iU6iVyKGn8Xuon9wFOnW8JL3UA==
 
 fibers@^4.0.3:
   version "4.0.3"
@@ -7271,6 +7291,11 @@ stream-shift@^1.0.0:
   resolved "https://registry.yarnpkg.com/stream-shift/-/stream-shift-1.0.1.tgz#d7088281559ab2778424279b0877da3c392d5a3d"
   integrity sha512-AiisoFqQ0vbGcZgQPY1cdP2I76glaVA/RauYR4G4thNFgkTqr90yXTo4LYX60Jl+sIlPNHHdGSwo01AvbKUSVQ==
 
+streamsaver@^2.0.4:
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/streamsaver/-/streamsaver-2.0.4.tgz#ecd1b40749dc5a81d7c03c2bfdc842de372191e2"
+  integrity sha512-rGES0zmHIPxinV32H2Dz55qgOE5dXui8yfu+JEjPAI294cDmwX4Oe7tCZLrnhjc/1z7hyIv9H6TMH2kqN2Tdqw==
+
 strict-uri-encode@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/strict-uri-encode/-/strict-uri-encode-1.1.0.tgz#279b225df1d582b1f54e65addd4352e18faa0713"
@@ -7982,6 +8007,11 @@ watchpack@^1.6.1:
   optionalDependencies:
     chokidar "^3.4.0"
     watchpack-chokidar2 "^2.0.0"
+
+web-streams-polyfill@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/web-streams-polyfill/-/web-streams-polyfill-3.0.0.tgz#c8bcb1e2ec1820088ca201674486a0f1feae848b"
+  integrity sha512-tcZlIJ+VBxuDXdRFF3PCZTJ3yUISGklG4hkl3CDGOlZ8XwpN90L5YsJNoSPH72wZ4nbsatE/OfIaxfM3p+6W7w==
 
 webpack-bundle-analyzer@^3.8.0:
   version "3.8.0"

@@ -13,7 +13,11 @@
     "@nuxt/typescript-runtime": "^0.4.10",
     "@nuxtjs/axios": "^5.11.0",
     "@nuxtjs/proxy": "^2.0.1",
-    "nuxt": "^2.13.0"
+    "axios-stream": "^1.0.16",
+    "fetch-progress": "^1.2.0",
+    "nuxt": "^2.13.0",
+    "streamsaver": "^2.0.4",
+    "web-streams-polyfill": "^3.0.0"
   },
   "devDependencies": {
     "@nuxt/typescript-build": "^1.0.3",

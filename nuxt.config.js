@@ -56,14 +56,26 @@ export default {
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
+    '@nuxtjs/proxy',
   ],
+  proxy: {
+    '/api': {
+      target: 'http://127.0.0.1:3333/',
+      pathRewrite: {
+        '^/api' : '/'
+        },
+        changeOrigin: true
+      }
+  },
+
   /*
   ** Axios module configuration
   ** See https://axios.nuxtjs.org/options
   */
   axios: {
     proxyHeaders: false,
-    credentials: false
+    credentials: false,
+    proxy: true,
   },
   /*
   ** vuetify module configuration
