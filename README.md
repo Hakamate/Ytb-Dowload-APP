@@ -9,12 +9,6 @@
 | Download MP3 | &#10004; | Convert Youtube video and convert it to MP3 |
 | Find | &#10060; | Find youtube vidéo |
 
-## Features
-
-| Feature  |  Coded       | Description  |
-|----------|:-------------:|:-------------|
-| Download MP3 | &#10004; | Convert Youtube video and convert it to MP3 |
-| Find | &#10060; | Find youtube vidéo |
 
 ## Build Setup
 
