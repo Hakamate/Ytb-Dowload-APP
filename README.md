@@ -1,5 +1,20 @@
-# H-Tools
-Welcome to H-Tools, an Web App used to group my Nuxt Tools
+# H-Ytb-Download-APP
+
+**H-Ytb-Download-APP** is a simple NuxtJs client to download youtube videos as MP3 thanks to [H-Ytb-Download-Serve](https://github.com/Hakamate/H-Ytb-Download-Serve)
+
+## Features
+
+| Feature  |  Coded       | Description  |
+|----------|:-------------:|:-------------|
+| Download MP3 | &#10004; | Convert Youtube video and convert it to MP3 |
+| Find | &#10060; | Find youtube vidéo |
+
+## Features
+
+| Feature  |  Coded       | Description  |
+|----------|:-------------:|:-------------|
+| Download MP3 | &#10004; | Convert Youtube video and convert it to MP3 |
+| Find | &#10060; | Find youtube vidéo |
 
 ## Build Setup
 
