@@ -1,6 +1,6 @@
-# H-Ytb-Download-APP
+# Ytb-Dowload-APP
 
-**H-Ytb-Download-APP** is a simple NuxtJs client to download youtube videos as MP3 thanks to [H-Ytb-Download-Serve](https://github.com/Hakamate/H-Ytb-Download-Serve)
+**Ytb-Dowload-APP** is a simple NuxtJs client to download youtube videos as MP3 thanks to [Ytb-Download-Serve](https://github.com/Hakamate/Ytb-Download-Serve)
 
 ## Features
 
